@@ -40,17 +40,23 @@ In addition, the interactive cross-filtering significantly enhances comprehensio
 
 ## Indicate which chart is the "first" chart. Then justify the choice of this chart type, its axes and marks based on the data variables it shows.
 
+![](./imgs/sheet1.png)
+
 The world map on the left is the first chart. This graph is a choropleth map and it is used for its ability to visualize the geographic distribution of population change. Allowing viewers to quickly identify global patterns of growth or decline. Its purpose is to provide immediate spatial context to understand if the population increases or decreases in a specific region for a specific year.
 
 For the axes, the map utilizes Latitude and Longitude to define the geographical coordinates for each country. The marks for each country are based on the population change for that country. Depending on the value, a continuous diverging green-to-red colour scheme is used to effectively communicate the magnitude of population change across various countries. 
 
 ## Indicate which chart is the "second" chart. Then justify the choice of this chart type, its axes and marks based on the data variables it shows.
 
+![](./imgs/sheet2.png)
+
 The Grouped Bar Chart on the right is the second chart. This graph is a grouped bar chart and it is used for its ability to visualize the extreme ends of the population growth and decline for each continent in a selected year. Its purpose is to provide details on the extreme ends and to precisely compare population change among the extreme ends for each country in its continent. 
 
 For the axes, Continent and Country are placed on the rows shelf to create a hierarchical grouping and individual bars for each country. Population Change is on the columns shelf, defining the length and direction of the bars (positive to the top, negative to the bottom). The Population Change (In Thousands) axis provides a clear scale for quantitative comparisons for extreme ends. The marks are based on the population change for each country, intentionally configured to show only the highest and lowest values per continent. Depending on the value, a continuous diverging green-to-red colour scheme is used to effectively communicate the magnitude of population change across various countries. 
 
 ## How does your dashboard provide details on demand?
+
+![](./imgs/details.png)
 
 The "Select Year" parameter allows the viewers to select a year on which the two charts' data will be based upon. Upon selection, the information presented on both the World Map and the Grouped Bar Chart automatically updates to reflect the population changes for that chosen year. This provides users with the ability to explore annual trends and see how population dynamics shift over time, on demand.
 
@@ -62,6 +68,8 @@ This information table's functionality allows users to retrieve data for individ
 
 ## How does your dashboard support cross-filtering between these two charts? The cross filtering must be bi-directional, such that a selection made in the first chart is reflected in the second chart, and a selection made in the second chart is reflected in the first chart.
 
+![](./imgs/crossfiltering.png)
+
 My dashboard allows bi-directional cross-filtering through dashboard filter actions, allowing users to highlight only the necessary continents that the viewers want to analyze.
 
 When a viewer clicks on a country (or multiple countries) on the World Map (first chart), a filter action transmits the corresponding Continent to the Grouped Bar Chart (second chart). This updates the bar chart to display the most and least extreme population changes within that selected continent (or multiple continents).
@@ -70,4 +78,5 @@ Conversely, when a viewer clicks on a bar (representing a specific country) on t
 
 
 Viewers can select multiple continents on either graph, allowing them to filter the display and focus exclusively on population changes within their chosen regions. This feature offers greater control over the analysis, highlighting specific areas on demand.  
+
 
