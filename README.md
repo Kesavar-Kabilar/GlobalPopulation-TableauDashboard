@@ -1,5 +1,7 @@
 # Global Population Change Analysis (Tableau Dashboard)
 
+I utilized C++ for data cleaning and transformation to generate the `modified_data_one.csv` and `modified_data_two.csv` files, which were subsequently integrated into the Tableau dashboard to visualize the Global Population Change Analysis.
+
 ![](./imgs/dashboard2.png)
 
 Dashboard: https://public.tableau.com/views/GlobalPopulationChangeAnalysisByKesavarKabilar/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
@@ -78,5 +80,6 @@ Conversely, when a viewer clicks on a bar (representing a specific country) on t
 
 
 Viewers can select multiple continents on either graph, allowing them to filter the display and focus exclusively on population changes within their chosen regions. This feature offers greater control over the analysis, highlighting specific areas on demand.  
+
 
 
