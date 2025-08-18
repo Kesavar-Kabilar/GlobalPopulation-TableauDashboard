@@ -1,6 +1,6 @@
 # Global Population Change Analysis (Tableau Dashboard)
 
-![](./imgs/dashboard1.png)
+![](./imgs/dashboard2.png)
 
 Dashboard: https://public.tableau.com/views/GlobalPopulationChangeAnalysisByKesavarKabilar/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
@@ -15,6 +15,8 @@ Cleaned Data For Grouped Bar Chart: ./modified_data_two.csv
 Which major global regions experienced major population increase and major population decrease in a selected year and which specific countries contributed to that major population increase and population decrease in that selected year?
 
 ## Answer (As seen in the image for the selected year 2020): 
+
+![](./imgs/dashboard1.png)
 
 In 2020, Asia experienced the most significant overall population increase, with countries like India and China showing very large positive changes. Conversely, Europe faced a severe population decrease across several of its countries, with the Russian Federation, Ukraine, and Italy being prominent examples of those contributing to the decline.
 
@@ -68,3 +70,4 @@ Conversely, when a viewer clicks on a bar (representing a specific country) on t
 
 
 Viewers can select multiple continents on either graph, allowing them to filter the display and focus exclusively on population changes within their chosen regions. This feature offers greater control over the analysis, highlighting specific areas on demand.  
+
