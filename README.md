@@ -1,5 +1,7 @@
 # Global Population Change Analysis (Tableau Dashboard)
 
+![](./imgs/dashboard1.png)
+
 Dashboard: https://public.tableau.com/views/GlobalPopulationChangeAnalysisByKesavarKabilar/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
 Original Data: https://population.un.org/wpp/downloads?folder=Standard%20Projections&group=Most%20used
@@ -63,5 +65,6 @@ My dashboard allows bi-directional cross-filtering through dashboard filter acti
 When a viewer clicks on a country (or multiple countries) on the World Map (first chart), a filter action transmits the corresponding Continent to the Grouped Bar Chart (second chart). This updates the bar chart to display the most and least extreme population changes within that selected continent (or multiple continents).
 
 Conversely, when a viewer clicks on a bar (representing a specific country) on the Grouped Bar Chart, a filter action highlights that particular country's continent on the World Map. If, instead, the user clicks on a continent header on the Grouped Bar Chart, the entire corresponding continent is highlighted on the World Map. 
+
 
 Viewers can select multiple continents on either graph, allowing them to filter the display and focus exclusively on population changes within their chosen regions. This feature offers greater control over the analysis, highlighting specific areas on demand.  
